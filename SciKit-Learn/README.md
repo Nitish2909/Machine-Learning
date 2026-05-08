@@ -87,4 +87,76 @@ In Simple words we can say that it is the answer of the "if X changes, how will 
 <br>
 Example: predicting house prices based on size, location, and age.
 
+<b>Types of Regression Analysis :</b>
+
+***1. Linear Regression***
+
+Linear Regression is a supervised machine learning and statistical technique used to find the relationship between an independent variable (X) and a dependent variable (Y) by fitting a straight line through the data points.It is mainly used for prediction, forecasting, understanding relationships between variable.
+
+Example:
+
+```bash
+
+Suppose,
+
+Experiences            Salary
+   1                   50000
+   2                   60000
+   3                   70000
+   4                   80000
+   5                   90000
+
+ 
+Here:
+
+ Experiences -> independent variable (X)
+ Salary -> dependent variable (Y)
+
+ Linear regression tries to find:
+
+"How much Salary increase when Experiences increase."
+
+```
+
+<b>Implementing Simple linear regression using SciKet-learn :</b>
+
+```bash
+from ast import Expression
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+
+data = {
+    "Experience":[1,2,3,4,5],
+    "Salary" : [50000,60000,70000,80000,90000]
+}
+
+df = pd.DataFrame(data)
+
+# independent (X) and Dependent (Y)
+x = df[["Experience"]]
+y = df[["Salary"]]
+
+# split data
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2)
+
+#create model
+model = LinearRegression()
+
+#train model
+model.fit(x_train, y_train)
+
+#Predict
+y_pred = model.predict(x_test)
+
+print("Predicted", y_pred)
+
+```
+
+
+
+
+
 

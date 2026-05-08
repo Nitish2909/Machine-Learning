@@ -38,6 +38,34 @@ print(sklearn.__version__)
 
 ```
 
+# Features of Scikit-learn:
+
+<b>1. Simple and Easy to use : </b>
+<br>
+The first Features of Scikit-learn is it has simple syntax and beginner friendly functions.
+
+Example:
+
+```bash
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+
+```
+
+<b>2. Open Source and Free :</b>
+<br>
+Scikit-learn is Free to use, Open-source, Community-supported. 
+
+<b>3. Pipline</b>
+
+<b>4. Feature Scaling</b>
+
+<b>5. cross-validation</b>
+
+<b>6. Hyperparameter Tuning</b>
+
+
 # Some Important Modules of SciKet-learn
 
 <b>1. sklearn.datasets :</b> This modules is used to load/import built-in datasets.Also used for generate sample datasets.some example of built-in datasets are Iris dataset, Wine dataset, Digits dataset.
@@ -181,6 +209,21 @@ Salary -> dependent variable (Y)
 
 ```
 
+# Data Analysis Tools:
+Scikit-learn (or sklearn) is one of the most popular and powerful Python libraries for data
+analysis and machine learning.It provides easy-to-use tools for :
+
+1. Time Series Analysis -> It helps forecast future trends based on past patterns
+
+2. Clustering  -> It identifies natural groupings in unlabeled data.
+
+3. Classification -> It predicts discrete outcomes using labeled data.
+
+Scikit-learn simplifies implementing these techniques with ready-to-use functions.Scikit-learn works well with other Python libraries like NumPy, pandas, and
+matplotlib, forming a complete data analysis ecosystem.
+
+
+# 1. Time Series Analysis :
 
 
 

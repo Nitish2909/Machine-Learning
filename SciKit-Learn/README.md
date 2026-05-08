@@ -119,9 +119,10 @@ Here:
 ```
 
 <b>Implementing Simple linear regression using SciKet-learn :</b>
+<br>
+Example: Predict salary based on years of experience
 
 ```bash
-from ast import Expression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -155,7 +156,30 @@ print("Predicted", y_pred)
 
 ```
 
+***Multiple Linear Regression***
 
+Multiple Regression is an extension of simple Linear Regression.Multiple Linear Regression is a type of regression in machine learning and statistics.In this type of regression we use two or more independent variable (input) to predict a single dependent variable(output/target).
+<br>
+In simple words we can say that studies how multiple factors together affect one output.
+
+Example:
+
+```bash
+Suppose we want to predict salary using:
+experience
+education
+
+Experience	 Education         Salary
+2	            12		       30000
+
+4	            16		       50000
+
+Here:
+
+Experience, Education -> independent variables (X)
+Salary -> dependent variable (Y)
+
+```
 
 
 

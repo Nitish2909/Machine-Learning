@@ -241,6 +241,41 @@ We can analyze this to predict future sales-this is Time Series Analysis.
 
 ```
 
+<b>Example Using Linear Regression</b>
+
+```bash
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Time data
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+
+# Sales data
+y = np.array([100, 120, 140, 160, 180])
+
+model = LinearRegression()
+model.fit(X, y)
+
+# Predict future sales
+prediction = model.predict([[6]])
+
+print(prediction)
+
+
+
+
+
+# output:
+[200.]
+
+Means Predicted sales for month 6 are 200.
+
+```
+
+# Clustering :
+Clustering is a machine learning technique that is used to group similar data points together based on their characterstics.
+
+
 
 
 

@@ -275,6 +275,61 @@ Means Predicted sales for month 6 are 200.
 # Clustering :
 Clustering is a machine learning technique that is used to group similar data points together based on their characterstics.
 
+<b>Some common Algoritms in Scikit-learn</b>
+
+```bash
+1. K-Means Clustering
+
+2. DBSCAN(Density-Based)
+
+3. Hierarchical Clustering
+
+```
+
+<b>1. K-Means Clustering  :</b>
+<br>
+K-Means is the most popular clustering algorithm in Machine Learning.
+<br>
+It groups data into K clusters, where K is the number of groups you choose.
+
+Full Form
+
+K = number of clusters
+Means = average /centroid of each cluster
+
+<b>Simple Example of K-Means </b>
+
+```bash
+from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([
+    [1, 2],
+    [1, 4],
+    [1, 0],
+    [10, 2],
+    [10, 4],
+    [10, 0]
+])
+
+kmeans = KMeans(n_clusters=2)
+
+kmeans.fit(X)
+
+print(kmeans.labels_)
+
+
+
+
+# output 
+[1 1 1 0 0 0]
+
+Means:
+First 3 points belong to one cluster
+Last 3 points belong to another cluster
+
+```
+
 
 
 

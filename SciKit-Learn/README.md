@@ -224,6 +224,25 @@ matplotlib, forming a complete data analysis ecosystem.
 
 
 # 1. Time Series Analysis :
+Time Series Analysis is a statistical and data analysis tools and techniques that is used analysis or study data that changes over time like tempreture, monthly sales and stock prices etc.
+It helps to find to patterns( like trends or seasons), Predict future values and understanding how past values affect future ones.
+
+Example:  Daily sales
+
+```bash
+Day      Sales
+1        100
+2        120
+3        130
+4        150
+Here, Sales is changing with Day (time).
+
+We can analyze this to predict future sales-this is Time Series Analysis.
+
+```
+
+
+
 
 
 

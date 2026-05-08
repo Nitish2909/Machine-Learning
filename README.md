@@ -54,7 +54,7 @@ Example : Suppose we have a dataset which has three columns where first 2 column
 When we have a dataset which contains input and output but the type of output is categorical. example: Gender,Nationality etc.
 Example : Suppose we have a dataset which has three columns where first 2 columns are input and third column is output in which first column is "IQ", second column is "CGPA" and third column is "Placement" (in terms of "YES/NO").
 
-# Unsupervised Learning:
+# 2. Unsupervised Learning:
 It is a type of ML where we have dataset that contains only input and we need to get some useful information by using different technique.
 <br>
 In Simple words we can say that Unsupervised Learning is a type of machine learning where the model learns from unlabeled data.
@@ -75,5 +75,9 @@ It is like a student learning without a teacher.
 The student observes things and finds patterns on their own.
 
 ```
+
+<b>Unsupervised learning is further divided :</b>
+
+<b>1. Clustering :</b>
 
 

@@ -81,3 +81,8 @@ The student observes things and finds patterns on their own.
 <b>1. Clustering :</b>
 
 
+# Difference between AI, ML and DL 
+
+###AI : 
+
+

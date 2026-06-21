@@ -209,6 +209,41 @@ Salary -> dependent variable (Y)
 
 ```
 
+<b>Example using Scikit-learn :</b>
+
+```bash
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+
+# Sample dataset
+data = {
+    'Experience': [1, 2, 3, 4, 5],
+    'Education': [10, 12, 12, 16, 18],
+    'Salary': [30000, 35000, 40000, 50000, 60000]
+}
+df = pd.DataFrame(data)
+
+# Independent variables
+X = df[['Experience', 'Education']]
+y = df['Salary']
+
+# Split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Model
+model = LinearRegression()
+
+# Train
+model.fit(X_train, y_train)
+
+# Predict
+y_pred = model.predict(X_test)
+
+print("Predicted:", y_pred)
+
+```
+
 # Data Analysis Tools:
 Scikit-learn (or sklearn) is one of the most popular and powerful Python libraries for data
 analysis and machine learning.It provides easy-to-use tools for :

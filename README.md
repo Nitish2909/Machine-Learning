@@ -80,9 +80,106 @@ The student observes things and finds patterns on their own.
 
 <b>1. Clustering :</b>
 
+# 3. Reinforcement Learning
+Reinforcement Learning is a machine learning technique where an agent learns through trial and error by interacting with an environment and receiving rewards for good actions and penalties for bad actions.
+
 
 # Difference between AI, ML and DL 
 
-###AI : 
+<b>1. AI : </b> Artificial Intelligence is the big umbrella.It is the Science that making Machine Smart and Intelligent like Humans. In Simple words if any system mimics human Intelligence is called AI.
+
+Example like:
+
+Playing Chess like a human(AI).
+
+Talking to Alexa.
+
+<b>2. ML :</b> Machine Learning is a subset of AI. where the Machines are learns from data and improve over time.
+
+Example:
+
+YouTube Recommending videos
+
+Gmail filtering spam
+
+<b>3. DL : </b>Deep Learning is a subset of Machine Learning. It uses something called neural networks which is inspired by human brain.
+
+Example:
+
+Face Recoginition on Phone
+
+Self Driving cars
+
+# Exploratory Data Analysis(EDA):
+Exploratory Data Analysis (EDA) is the process of analyzing and visualizing data to understand its characteristics, discover patterns, identify outliers, and prepare the data for building machine learning models.
+
+# Exploratory Data Analysis (EDA) Steps:
+EDA is performed to understand, clean, and prepare the dataset before training a machine learning model.
+
+```bash
+1. Load the Dataset
+        
+2. Understand the Dataset
+        
+3. Check Data Types
+        
+4. Check Dataset Shape
+        
+5. Check Missing Values
+        
+6. Check Duplicate Records
+        
+7. Generate Summary Statistics
+        
+8. Analyze Individual Features (Univariate Analysis)
+        
+9. Analyze Relationships Between Features (Bivariate/Multivariate Analysis)
+        
+10. Detect Outliers
+        
+11. Analyze Feature Distribution
+        
+12. Check Class Balance (for Classification)
+        
+13. Correlation Analysis
+        
+14. Feature Engineering (if needed)
+        
+15. Draw Insights & Prepare Data
+
+```
+
+# Steps Involved in Building a Machine Learning Model:
+The machine learning workflow typically follows these steps:
+
+```bash
+1. Problem Definition
+        
+2. Data Collection
+    
+3. Exploratory Data Analysis (EDA)
+        
+4. Data Preprocessing
+        
+5. Feature Engineering & Feature Selection
+    
+6. Split the Dataset
+        
+7. Choose a Machine Learning Algorithm
+        
+8. Train the Model
+        
+9. Evaluate the Model
+        
+10. Hyperparameter Tuning
+        
+11. Test the Final Model
+        
+12. Deploy the Model
+        
+13. Monitor & Maintain the Model
+
+```
+
 
 
